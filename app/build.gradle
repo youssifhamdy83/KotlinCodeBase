@@ -31,7 +31,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.ultimate.ultimatecodebase"
+        applicationId "com.youssif.youssifcodebase"
         minSdk 21
         targetSdk 33
         versionCode 1

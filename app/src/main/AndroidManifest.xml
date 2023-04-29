@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.ultimate.ultimatecodebase">
+    package="com.youssif.youssifcodebase">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-
-        android:name=".app.App"
+        android:name="com.youssif.youssifcodebase.app.App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -19,7 +18,7 @@
         android:theme="@style/Theme.UltimateCodeBase"
         tools:targetApi="31">
         <activity
-            android:name=".ui.NewsActivity"
+            android:name="com.youssif.youssifcodebase.ui.NewsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
